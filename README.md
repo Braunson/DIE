@@ -8,7 +8,6 @@ It is time for humanity to move on. DIE.js can help.
 Include DIE.js and call `window.DIE(n)`, where `n` is the minimum version of IE you wish to support.
 If IE is detected below `n`, this library gives friendly upgrade instructions to the user.
 `window.DIE` exposes its functions so it can be used any way you like.
-`window.DIE.getIEVersion` should detect IE <= 11.
 
     DIE(minIEVersionSupported) => DIE.isDead
     DIE.getIEVersion()

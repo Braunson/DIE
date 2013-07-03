@@ -19,9 +19,8 @@ If no argument is given, all versions of IE will trigger the instructions.
     DIE.killItWithIre() // displays message to unsupported users
 
 ## We :heart: the web
-DIE.js is a project borne out of respect, love, and yes, frustration.
-However, the library wouldn't have the ability to support a minimum IE version
-if snark and hate were the only motivations.
+DIE.js may be borne out of frustration, but it wouldn't have the ability
+to support a minimum IE version if snark and hate were the only motivations.
 We the web's developers wish to deliver a modern web experience that delights
 and empowers people, but our reliance on obsolete tools is hindering innovation,
 and with each installation of a standards-compliant browser the web gets a little better.

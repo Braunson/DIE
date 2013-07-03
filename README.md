@@ -10,6 +10,10 @@ If IE is detected below `n`, this library gives friendly upgrade instructions to
 `window.DIE` exposes its functions so it can be used any way you like.
 `window.DIE.getIEVersion` should detect IE <= 11.
 
+    DIE(minIEVersionSupported) => DIE.isDead
+    DIE.getIEVersion()
+    DIE.killItWithIre()
+
 ## We :heart: the web
 DIE.js is a project of respect and love, not of snark and hate.
 We the web's developers wish to deliver a modern web experience that delights 

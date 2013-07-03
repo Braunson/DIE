@@ -7,7 +7,7 @@
 
   // Call `window.DIE(n)` where `n` is the minimum version of IE you wish to support.
   // If IE is detected below `n`, this library gives friendly upgrade instructions to the user.
-  // Calling `window.DIE()` sets `DIE.isDead`, a bool indicating if the browser is supported.
+  // It also returns and sets `DIE.isDead`, a bool indicating if the browser is supported.
   window.DIE = function(minIEVersionSupported) {
     DIE.ieVersion = DIE.getIEVersion();
     DIE.isDead = DIE.ieVersion > -1 && (minIEVersionSupported == null || DIE.ieVersion < parseInt(minIEVersionSupported));
@@ -35,7 +35,7 @@
 
   // Alert the townsfolk! The beast is upon us!
   DIE.killItWithIre = function() {
-    var styling = 'style="font-size: 24px; line-height: 1.5; padding-left: 10px;"';
+    var styling = 'style="font-size: 24px; line-height: 1.5; padding: 0 0 0 10px; margin: 0 0 10px 0;"';
     var html =
       '<div id="die-unsupported-message" style="position: relative;">' +
         '<p ' + styling + '>We\'re sorry, but your browser doesn\'t support the modern web.</p>' +
@@ -48,7 +48,7 @@
           '<li ' + styling + '><a target="_blank" href="http://www.opera.com/">Opera</a></li>' +
         '</ul>' +
         '<p ' + styling + '>Your web browsing experience should improve significantly.</p><p style="margin-bottom: 60px;"></p>' +
-        '<span style="font-size: 168px; margin: 0; line-height: 1.1; position: absolute; top: 83px; left: 460px;"> :)</span>' +
+        '<span style="font-size: 168px; margin: 0; line-height: 1.1; position: absolute; top: 78px; left: 460px;">:)</span>' +
       '</div>';
     document.write(html);
   };

@@ -2,6 +2,7 @@
 
 ## Rationale
 **Internet Explorer** has devoured lifetimes of developer [person-hours](https://en.wikipedia.org/wiki/Man-hour).
+
 It is time for humanity to move on. This tiny library can help.
 
 [Try it here.](https://ryanatkn.github.com/DIE)

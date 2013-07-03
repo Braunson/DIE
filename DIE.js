@@ -48,7 +48,7 @@
           '<li ' + styling + '><a target="_blank" href="http://www.opera.com/">Opera</a></li>' +
         '</ul>' +
         '<p ' + styling + '>Your web browsing experience should improve significantly.</p><p style="margin-bottom: 60px;"></p>' +
-        '<span style="font-size: 168px; margin: 0; line-height: 1.1; position: absolute; top: 78px; left: 460px;">:)</span>' +
+        '<span style="font-size: 168px; margin: 0; line-height: 1.1; position: absolute; top: 78px; left: 460px; margin: 0; padding: 0;">:)</span>' +
       '</div>';
     document.write(html);
   };

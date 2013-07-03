@@ -37,17 +37,19 @@
   DIE.killItWithIre = function() {
     var styling = 'style="font-size: 24px; line-height: 1.5; padding-left: 10px;"';
     var html =
-      '<p ' + styling + '>We\'re sorry, but your browser doesn\'t support the modern web.</p>' +
-      '<p ' + styling + '>Please upgrade to view this website!</p>' +
-      '<p ' + styling + '>These browsers should work great:</p>' +
-      '<ul>' +
-        '<li ' + styling + '><a target="_blank" href="https://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a></li>' +
-        '<li ' + styling + '><a target="_blank" href="https://www.google.com/chrome">Google Chrome</a></li>' +
-        '<li ' + styling + '><a target="_blank" href="https://www.apple.com/safari/">Apple Safari</a></li>' +
-        '<li ' + styling + '><a target="_blank" href="http://www.opera.com/">Opera</a></li>' +
-      '</ul>' +
-      '<p ' + styling + '>Your web browsing experience should improve significantly.</p><p style="margin-bottom: 60px;"></p>' +
-      '<span style="font-size: 168px; margin: 0; line-height: 1.1; position: absolute; top: 105px; left: 450px;"> :)</span>';
+      '<div id="die-unsupported-message" style="position: relative;">' +
+        '<p ' + styling + '>We\'re sorry, but your browser doesn\'t support the modern web.</p>' +
+        '<p ' + styling + '>Please upgrade to view this website!</p>' +
+        '<p ' + styling + '>These browsers should work great:</p>' +
+        '<ul>' +
+          '<li ' + styling + '><a target="_blank" href="https://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a></li>' +
+          '<li ' + styling + '><a target="_blank" href="https://www.google.com/chrome">Google Chrome</a></li>' +
+          '<li ' + styling + '><a target="_blank" href="https://www.apple.com/safari/">Apple Safari</a></li>' +
+          '<li ' + styling + '><a target="_blank" href="http://www.opera.com/">Opera</a></li>' +
+        '</ul>' +
+        '<p ' + styling + '>Your web browsing experience should improve significantly.</p><p style="margin-bottom: 60px;"></p>' +
+        '<span style="font-size: 168px; margin: 0; line-height: 1.1; position: absolute; top: 83px; left: 460px;"> :)</span>' +
+      '</div>';
     document.write(html);
   };
 })();

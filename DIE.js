@@ -1,6 +1,6 @@
 /**
  * DIE IE! DIE! (because we love the web)
- * Ryan Atkinson 2013
+ * https://github.com/ryanatkn/DIE
  * MIT license
  */
 (function() {

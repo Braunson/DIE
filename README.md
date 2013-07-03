@@ -1,7 +1,8 @@
 # DIE IE! DIE!
 
 ## Rationale
-**Internet Explorer** has devoured lifetimes of developer [person-hours](https://en.wikipedia.org/wiki/Man-hour) and impairs the World Wide Web.
+**Internet Explorer** has devoured lifetimes of developer 
+[person-hours](https://en.wikipedia.org/wiki/Man-hour) and impairs the World Wide Web.
 
 It is time for humanity to move on. This tiny library can help.
 
@@ -18,9 +19,12 @@ If `n` is `null` or `undefined`, all versions of IE will trigger the instruction
     DIE.killItWithIre() // displays message to unsupported users
 
 ## We :heart: the web
-DIE.js is a project of respect and love, not of snark and hate.
-We the web's developers wish to deliver a modern web experience that delights 
-and empowers people, but reliance on obsolete tools is hindering innovation.
+DIE.js is a project borne out of respect, love, and yes, frustration.
+However, the library wouldn't have the ability to support a minimum IE version
+if snark and hate were the only motivations.
+We the web's developers wish to deliver a modern web experience that delights
+and empowers people, but our reliance on obsolete tools is hindering innovation,
+and with each installation of a standards-compliant browser the web gets a little better.
 Let's focus on the progress that helps everyone win.
 
 ## License

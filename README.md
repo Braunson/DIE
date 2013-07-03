@@ -11,7 +11,7 @@ If IE is detected below `n`, this library gives friendly upgrade instructions to
 
     DIE(minIEVersionSupported) => DIE.isDead
     DIE.getIEVersion()
-    DIE.killItWithIre()
+    DIE.killItWithIre() // displays message to unsupported users
 
 ## We :heart: the web
 DIE.js is a project of respect and love, not of snark and hate.

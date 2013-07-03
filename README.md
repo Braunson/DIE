@@ -20,7 +20,7 @@ If `n` is `null` or `undefined`, all versions of IE will trigger the instruction
 ## We :heart: the web
 DIE.js is a project of respect and love, not of snark and hate.
 We the web's developers wish to deliver a modern web experience that delights 
-and empowers its users, but reliance on obsolete tools is hindering innovation.
+and empowers people, but reliance on obsolete tools is hindering innovation.
 Let's focus on the progress that helps everyone win.
 
 ## License

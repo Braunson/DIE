@@ -7,7 +7,7 @@
 
   // Call `window.DIE(n)` where `n` is the minimum version of IE you wish to support.
   // If IE is detected below `n`, this library gives friendly upgrade instructions to the user.
-  // Calling `window.DIE()` sets `DIE.ieVersion` and `DIE.isDead`, a bool indicating if the browser is supported.
+  // Calling `window.DIE()` sets `DIE.isDead`, a bool indicating if the browser is supported.
   window.DIE = function(minIEVersionSupported) {
     DIE.ieVersion = DIE.getIEVersion();
     DIE.isDead = DIE.ieVersion > -1 && (minIEVersionSupported == null || DIE.ieVersion < parseInt(minIEVersionSupported));

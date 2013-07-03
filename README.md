@@ -10,7 +10,7 @@ It is time for humanity to move on. This tiny library can help.
 
 ## Usage
 Include DIE.js and call `window.DIE(n)`, where `n` is the minimum version of IE you wish to support.
-If IE is detected below `n`, this library gives friendly upgrade instructions to the user.
+If IE is detected below version `n`, this library gives friendly upgrade instructions to the user.
 If no argument is given, all versions of IE will trigger the instructions.
 `window.DIE` exposes its functions so it can be used any way you like.
 

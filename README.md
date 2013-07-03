@@ -1,8 +1,10 @@
 # DIE IE! DIE!
 
 ## Rationale
-**Internet Explorer** has devoured lifetimes of [person-hours](https://en.wikipedia.org/wiki/Man-hour).
-It is time for humanity to move on. DIE.js can help.
+**Internet Explorer** has devoured lifetimes of developer [person-hours](https://en.wikipedia.org/wiki/Man-hour).
+It is time for humanity to move on. This tiny library can help.
+
+[Try it here.](https://ryanatkn.github.com/DIE)
 
 ## Usage
 Include DIE.js and call `window.DIE(n)`, where `n` is the minimum version of IE you wish to support.

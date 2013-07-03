@@ -1,7 +1,7 @@
 # DIE IE! DIE!
 
 ## Rationale
-**Internet Explorer** has devoured lifetimes of developer [person-hours](https://en.wikipedia.org/wiki/Man-hour) and uglifies the World Wide Web.
+**Internet Explorer** has devoured lifetimes of developer [person-hours](https://en.wikipedia.org/wiki/Man-hour) and cripples the World Wide Web.
 
 It is time for humanity to move on. This tiny library can help.
 
